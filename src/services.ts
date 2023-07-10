@@ -24,7 +24,7 @@ function createFetchClient<T>(data$: Observable<T>) {
  * gets the user account data for a bond contract
  */
 const msgQuery = (permit: AccountPermit) => ({
-  account: {
+  validate_permit: {
     permit,
   },
 });

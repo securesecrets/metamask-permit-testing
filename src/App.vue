@@ -39,7 +39,7 @@ function formPermit() {
 function queryContract() {
   permitQuery$({
     permit: accountPermit.value as AccountPermit,
-    contractAddress: 'TBD', // CHANGE THIS
+    contractAddress: 'secret1ghcnhykd5v0jejzhl2dfea8pkach3jypupwdtk',
   }).subscribe({
     next: (response) => {
       console.log(response)
